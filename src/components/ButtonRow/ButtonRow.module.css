@@ -1,2 +1,5 @@
 .buttonRow {
+  overflow: auto;
+  /* 下面这行代码是关键 */
+  white-space: nowrap;
 }
